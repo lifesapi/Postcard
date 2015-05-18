@@ -13,6 +13,8 @@
 		2A2D7FF41B0A325400F5707B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A2D7FF31B0A325400F5707B /* Images.xcassets */; };
 		2A2D7FF71B0A325400F5707B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A2D7FF51B0A325400F5707B /* LaunchScreen.xib */; };
 		2A2D80031B0A325400F5707B /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2D80021B0A325400F5707B /* PostcardTests.swift */; };
+		2A2D800D1B0A3CAB00F5707B /* EiffelTower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2A2D800C1B0A3CAB00F5707B /* EiffelTower.jpg */; };
+		2A2D800F1B0A41AE00F5707B /* stamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2A2D800E1B0A41AE00F5707B /* stamp.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		2A2D7FFC1B0A325400F5707B /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A2D80011B0A325400F5707B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A2D80021B0A325400F5707B /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		2A2D800C1B0A3CAB00F5707B /* EiffelTower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = EiffelTower.jpg; sourceTree = "<group>"; };
+		2A2D800E1B0A41AE00F5707B /* stamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stamp.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		2A2D7FEA1B0A325400F5707B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2A2D800E1B0A41AE00F5707B /* stamp.jpg */,
+				2A2D800C1B0A3CAB00F5707B /* EiffelTower.jpg */,
 				2A2D7FEB1B0A325400F5707B /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,8 +198,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A2D800F1B0A41AE00F5707B /* stamp.jpg in Resources */,
 				2A2D7FF21B0A325400F5707B /* Main.storyboard in Resources */,
 				2A2D7FF71B0A325400F5707B /* LaunchScreen.xib in Resources */,
+				2A2D800D1B0A3CAB00F5707B /* EiffelTower.jpg in Resources */,
 				2A2D7FF41B0A325400F5707B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
