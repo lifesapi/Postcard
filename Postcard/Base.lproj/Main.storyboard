@@ -67,7 +67,7 @@
                                     <rect key="frame" x="208" y="64" width="125" height="113"/>
                                 </variation>
                             </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ujt-rV-OH2">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ujt-rV-OH2">
                                 <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -97,13 +97,22 @@
                                     <action selector="sendMailButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kFI-gT-puG"/>
                                 </connections>
                             </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LM6-I7-3LF">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="73" width="95" height="21"/>
+                                </variation>
+                            </label>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sew-r5-s4e">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="36" width="200" height="96"/>
+                                    <rect key="frame" x="16" y="92" width="200" height="96"/>
                                 </variation>
                             </label>
                         </subviews>
@@ -114,6 +123,7 @@
                                 <exclude reference="Ujt-rV-OH2"/>
                                 <exclude reference="Plz-nS-Ikq"/>
                                 <exclude reference="7vx-8u-q1A"/>
+                                <exclude reference="LM6-I7-3LF"/>
                                 <exclude reference="Sew-r5-s4e"/>
                             </mask>
                         </variation>
@@ -123,6 +133,7 @@
                                 <include reference="Ujt-rV-OH2"/>
                                 <include reference="Plz-nS-Ikq"/>
                                 <include reference="7vx-8u-q1A"/>
+                                <include reference="LM6-I7-3LF"/>
                                 <include reference="Sew-r5-s4e"/>
                             </mask>
                         </variation>
@@ -132,6 +143,7 @@
                         <outlet property="enterNameTextField" destination="Ujt-rV-OH2" id="iON-7f-z3f"/>
                         <outlet property="mailButton" destination="7vx-8u-q1A" id="Zcb-Fz-kuB"/>
                         <outlet property="messageLabel" destination="Sew-r5-s4e" id="wEA-5f-v0P"/>
+                        <outlet property="nameLabel" destination="LM6-I7-3LF" id="yv0-Sf-ScI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
